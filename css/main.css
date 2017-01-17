@@ -4,6 +4,10 @@ body {
   margin: 0;
 }
 
+h2 {
+  margin-bottom: 0;
+}
+
 a {
   background-color: #555;
   color: white;
@@ -45,7 +49,7 @@ p {
 @media only screen and (min-width: 38em) {
 
   html {
-    font-size: 110%;
+    font-size: 98%;
     line-height: 1.4;
     text-align: left;
   }
@@ -55,8 +59,16 @@ p {
     margin: 0 0 1.4rem;
   }
 
+  body {
+    font-size: 80%;
+  }
+
+  img {
+    margin-top: 4em;
+  }
+
   .photo {
-    width: 45%;
+    width: 48%;
     max-width: 25em;
     display: inline-block;
     vertical-align: middle;
@@ -67,6 +79,7 @@ p {
     width: 45%;
     display: inline-block;
     vertical-align: middle;
+    padding-top: 2em;
   }
 
 }
@@ -74,14 +87,22 @@ p {
 @media only screen and (min-width: 60em) {
 
   html {
-    font-size: 130%;
+    font-size: 125%;
     line-height: 1.5;
     text-align: left;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
   }
 
   h1,
   p {
     margin: 0 0 1.5rem;
+  }
+
+  body {
+    font-size: 100%;
   }
 
   img {
@@ -90,7 +111,7 @@ p {
   }
 
   .content {
-    padding-top: 4em;
+    padding-top: 3em;
   }
 
 }
