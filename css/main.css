@@ -26,6 +26,7 @@ a {
   border-radius: 4px;
   padding: .5em .75em;
   text-decoration: none;
+  text-align: center;
 }
 
 a:hover {
@@ -122,11 +123,7 @@ p {
 
   img {
     max-width: 42em;
-    padding-top: 4em;
-  }
-
-  .content {
-    padding-top: 3em;
+    margin-top: 0;
   }
 
 }
@@ -145,11 +142,6 @@ p {
 
   img {
     max-width: 60em;
-  }
-
-  .content {
-    padding-top: 4em;
-    padding-left: 8em;
   }
 
 }
